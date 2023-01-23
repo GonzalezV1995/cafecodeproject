@@ -1,0 +1,133 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./menu.css">  
+</head>
+
+<div class="topnav">
+    <h1>Cafe<span class="titlehalf">Code</span></h1>
+    <div class="buttonarea">
+        <button class="home-button" onclick="message()">Home</button>
+        <button class="order-button" onclick="message()">Order</button>
+        <button class="account-button" onclick="message()">Account</button>
+        <button class="Login-button" onclick="message()">Login</button>
+    </div>
+</div>
+
+<div class="entire-form">
+    <form action="/dashboard" method="post" class="col-4 p-4 bg-dark text-light">
+        <div class="main-container">
+            <div class="left-column">
+            <div class="uppertext">
+                <h3>Coffee, Tea, Lattes</h3>
+                <img src="./static/beveragepic.jpeg" alt="beverages" class="beverages-icon">
+
+        </div>
+
+        <div class="checkboxdrinks">
+            <fieldset>
+
+                <div>
+                <input type="checkbox" id="drinkitem" name="drink" value="Small Byte" checked />
+                <label for="drinkitem">Small Byte</label>
+                </div>
+
+                <div>
+                <input type="checkbox" id="drinkitem" name="drink" value="Medium Megabyte" />
+                <label for="drinkitem">Medium Megabyte</label>
+                </div>
+
+                <div>
+                <input type="checkbox" id="drinkitem" name="drink" value="Large Gigabyte" />
+                <label for=drinkitem">Large Gigabyte</label>
+                </div>
+
+
+                <div>
+                <input type="checkbox" id="drinkitem" name="drink" value="Steampunk Chai Latte" />
+                <label for="drinkitem">Steampunk Chai Latte</label>
+                </div>
+
+
+                <div>
+                <input type="checkbox" id="drinkitem" name="drink" value="Red Pill Espresso" />
+                <label for="drinkitem">Red Pill Espresso</label>
+                </div>
+
+
+                <div>
+                <input type="checkbox" id="drinkitem" name="drink" value="Bubble Tea" />
+                <label for="drinkitem">Bubble Tea</label>
+                </div>
+
+
+            </fieldset>
+        </div>
+    </div>
+
+
+
+    <div class="right-column">
+        <h4> Quick Bytes </h4>
+        <div>
+            <input type="checkbox" id="fooditem" name="food" value="Salmon Poke" />
+            <label for="drinkitem">Salmon Poke</label>
+            </div>
+
+
+            <div>
+            <input type="checkbox" id="fooditem" name="food" value="Tonkotsu Ramen" />
+            <label for="drinkitem">Tonkatsu Ramen</label>
+            </div>
+
+
+            <div>
+            <input type="checkbox" id="fooditem" name="food" value="Bahn Mi" />
+            <label for="drinkitem">Bahn Mi</label>
+            </div>
+
+    </div>
+
+    </div>
+
+    <div class="main-container">
+        
+        <h2>Set up Your Order Here!</h2>
+
+        <label for="cards">Choose a Card</label>
+            <select name="Credit Card" id="cardnumber">
+            <option value="*VISA 2098">VISA 2098</option>
+            <option value="*VISA 1867">VISA 2098</option>
+            <option value="*Mastercard 0001">Mercedes</option>
+            </select>  
+            
+            
+        <label for="cards">Delivery Type</label>
+            <select name="Delivery" id="cardnumber">
+            <option value="Pick Up">VISA 2098</option>
+            </select> 
+            
+        <label for="Address">Select an Address</label>
+            <select name="address" id="addressnumber">
+            <option value="5054 W. Schubert">5054 W. Schubert</option>
+            <option value="6987 S.Central">6987 S.Central</option>
+            </select> 
+
+        <p>Special Requests: <input name="requests" type="value"></p>
+        <p>Time <input name="time" type="value"></p>    
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+
+    
+</div>
+
+</html>
+
+

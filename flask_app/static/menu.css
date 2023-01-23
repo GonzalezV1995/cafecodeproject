@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+.topnav {
+    background-color: #242929;
+    width: 1300px;
+    border-width: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 60px;
+
+
+}
+
+h1 {
+    color: white;
+    padding-left: 10px;
+
+}
+
